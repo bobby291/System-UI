@@ -1,12 +1,12 @@
 
-import About from "./components/Hero"
-import Client from "./components/Client"
-import Hero from "./components/About"
-import Offer from "./components/Offer"
-import Portfolio from "./components/Portfolio"
-import Review from "./components/Review"
-import Cta from "./components/cta"
-import Header from "./components/Header"
+import { Hero } from "./components/Hero"
+import { About } from "./components/About"
+import { Client } from "./components/Client"
+import { Portfolio } from "./components/Portfolio"
+import { Offer } from "./components/Offer"
+import { Review } from "./components/Review"
+import { Footer } from "./components/Footer"
+import { Header } from "./components/Header"
 
 
 export default function App() {
@@ -15,13 +15,11 @@ export default function App() {
     <Header />
     <Hero />
     <About />
-    <Client />
-    <Hero />
-    <Offer />
     <Portfolio />
+    <Client />
+    <Offer />
     <Review />
-    <Cta />
-    
+    <Footer />    
     
     </>
   )
