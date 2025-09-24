@@ -32,9 +32,9 @@ export const Portfolio = () => {
             <div data-aos="zoom-in" data-aos-delay="50" className='bg-gray-600 p-8 flex flex-col justify-center items-start gap-4'>
               <h1 data-aos="zoom-in" data-aos-delay="50" className='text-white lg:text-[35px] text-[22px] capitalize leading-[1.2em] font-poppins text-left'>{projects.title}</h1>
               <p data-aos="zoom-in" data-aos-delay="50" className='text-gray-300 text-sm font-poppins text-left'>{projects.para}</p>
-               <button className='text-themegreen hover:text-white text-sm font-semibold mt-5'>
+               {/* <button className='text-themegreen hover:text-white text-sm font-semibold mt-5'>
                   VIEW MORE
-               </button>
+               </button> */}
             </div>
           </div>
         ))}

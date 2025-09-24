@@ -2,10 +2,11 @@ import { IoMdCloudDone } from "react-icons/io";
 import { SiCyberdefenders } from "react-icons/si";
 import { FaUserEdit } from "react-icons/fa";
 import project1 from '../src/assets/project1.jpg'
-import project2 from  '../src/assets/project2.jpg'
-import project3 from  '../src/assets/project3.jpg'
-import project4 from  '../src/assets/project4.jpg'
+import port2 from '../src/assets/port2.jpg'
+import port3 from '../src/assets/port3.jpg'
+import port4 from '../src/assets/port4.jpg'
 import twitterIcon from '../src/assets/twitterIcon.svg'
+import { BookOpen, Briefcase, LayoutDashboard, LayoutGrid, PanelsTopLeft, Settings, Target, Terminal, Users, Wrench } from "lucide-react";
 
 
 export const services = [
@@ -34,25 +35,97 @@ export const assets = [
 export const projects = [
   {
     img: project1,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    title: 'AI Automation',
+    para: 'Showcasing intelligent solutions that streamline workflows, cut cost, and boost productivity. Delivery real business value.',
   },
   {
-    img: project2,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    img: port2,
+    title: 'Software Development',
+    para: 'Buidling reliable, scalable, and user-friendly software that drives business success. Delivery high performance application with innovation at the core.',
   },
   {
-    img: project3,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    img: port3,
+    title: 'Management Systemn for Industries',
+    para: 'A centralied dashboard that gives industries real-time control, insights, and efficiency. Transforming complex operation into simple, actionable insights.',
   },
   {
-    img: project4,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    img: port4,
+    title: 'Cloud Migration for Scalability',
+    para: 'Seamlessly moving business to the cloud for unlimited growth and agility. Scaling enterprise with scalable cloud migration solutions.',
   },
 ]
+
+export const Menus = [
+  {
+    name: "Company",
+    subMenuHeading: ["Design", "Scale"],
+    subMenu : [
+      {
+        name: "Mission",
+        desc: "Responsive",
+        icon: Target
+      },
+      {
+        name: "Team",
+        desc: "Collaboration",
+        icon: Users,
+      },
+      {
+        name: "Overview",
+        desc: "Cyclax Pitch Deck",
+        icon: LayoutDashboard,
+      },
+    ],
+    gridCols: 2,
+  },
+  {
+    name: "Resources",
+    subMenuHeading: ["Design", "Scale"],
+    subMenu : [
+      {
+        name: "Use cases",
+        desc: "Reviews",
+        icon: PanelsTopLeft
+      },
+      {
+        name: "Tools",
+        desc: "Production",
+        icon: Settings,
+      },
+      {
+        name: "Blog",
+        desc: "Newsletter",
+        icon: BookOpen,
+      },
+    ],
+    gridCols: 3,
+  },
+  {
+    name: "Feature",
+    subMenuHeading: ["Design", "Scale"],
+    subMenu : [
+      {
+        name: "Software",
+        desc: "Development and Design",
+        icon: Terminal
+      },
+      {
+        name: "Management",
+        desc: "Workingflow",
+        icon: Briefcase,
+      },
+      {
+        name: "CMS",
+        desc: "Project",
+        icon: LayoutGrid,
+      },
+    ],
+    gridCols: 4,
+  },
+  {
+    name: "Solution",
+  },
+];
 
 export const reviews = [
   {

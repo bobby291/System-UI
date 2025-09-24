@@ -25,19 +25,21 @@ export const Offer = () => {
                   data-aos="zoom-in" data-aos-delay="50"
                     className='text-purple-500 font-semibold'
                 >
-                    STUDENTS CORE SOLUTIONS
+                    CYCLALX CORE SOLUTIONS
                 </span>
                 <h2 
                     data-aos="zoom-in" data-aos-delay="50"
                     className='text-3xl md:text-4xl font-bold text-navy-900 mt-4 mb-6 md:w-4/5'
                 >
-                    Cyclax Provides Smart, AI-Powered tools to help students learn better
+                    Cyclax Provides Smart, AI-Powered solutions That Drives Impact
                 </h2>
                 <p 
                     data-aos="zoom-in" data-aos-delay="50"
                     className='text-gray-600 mb-8 md:w-4/5'
                 >
-                    For intelligent study assistance and assigmnets support to personalized learning recommendation and digial planning tools, our platform is built to make academic life easier and more productive.
+                    At Cyclax, our core solutions are designed with one goal in mind to create real impact for business, organizations, and communities. 
+                    From AI-Powered automation to enterprise software, cloud migration, and business Intelligence, we deliver technology that goes beyound 
+                  
                 </p>
                 <a 
                     data-aos="zoom-in" data-aos-delay="50"

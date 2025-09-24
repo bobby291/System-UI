@@ -47,8 +47,8 @@ export const Client = () => {
         data-aos="zoom-in" data-aos-delay="50"
         className='text-gray-500 font-poppins items-center justify-center'
       >
-        Cyclax is a AI-powered base innovation platform, designed to empower student, startups and small businesses across African. 
-        By combining smart tools with intutive design,Cyclax offers personalized solution in education, finance, productivity and Enterprenuership  
+        Cyclax is a AI-powered base innovation platform, designed to blend student, enterprises, organizations and goverment across African. 
+        By combining smart tools with intutive design,Cyclax offers personalized solution in education, finance, productivity and Enterprenuership  etc. 
       </p>
     </div>
 
@@ -102,7 +102,7 @@ export const Client = () => {
       className='text-center mt-12'
     >
       <button 
-        className='bg-themegreen text-white font-poppins cursor-pointer py-3 px-6 rounded-full hover:bg-white hover:text-black transition-colors shadow-2xl relative'
+        className='bg-purple-700 text-white font-poppins cursor-pointer py-3 px-6 rounded-full hover:bg-black hover:text-white transition-colors shadow-2xl relative'
       > 
         Learn More
         </button>
