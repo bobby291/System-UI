@@ -31,9 +31,9 @@ export const Footer = () => {
                     <p className='font-playfair text-lg text-white font-semibold'>INDUSTRIES</p>
                     <ul className='mt-3 text-white font-poppins flex flex-col gap-2 text-sm'>
                         <li><a href="#" className=' hover:text-purple-700'>BANKING AND FINANCES</a></li>
+                        <li><a href="#" className=' hover:text-purple-700'>EDUCATION</a></li>
                         <li><a href="#" className=' hover:text-purple-700'>INSURANCE</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>INSURANCE</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>HEALTH</a></li>
+                        <li><a href="#" className=' hover:text-purple-700'>HEALTH CARE</a></li>
                         <li><a href="#" className=' hover:text-purple-700'>RETAIL & CONSUMER PRODUCTS</a></li>
                         <li><a href="#" className=' hover:text-purple-700'>TRAVEL</a></li>
                         <li><a href="#" className=' hover:text-purple-700'>REAL ESTATE</a></li>

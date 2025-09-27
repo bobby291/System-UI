@@ -1,23 +1,15 @@
-import React, { useEffect } from 'react'
+import { Header } from "../components/Header"
+import { Footer } from "../components/Footer"
 import aboutimg from "../assets/about.jpg";
-import AOS from 'aos';
-import { useNavigate } from 'react-router-dom';
-import 'aos/dist/aos.css'
+import { Fea } from "../components/Fea";
 
-export const About = () => {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      delay: 200,
-      once: false,
-    });
-  }, []);
-
-  return (
-    <div id='about'className='w-full h-auto flex flex-col items-center 
-    justify-between lg:px-[80px] py-[60px] px-[20px] gap-[60px]'>
+export default function Features() {
+    return (
+        <div>
+        <Header />
+        <Fea />
+        <div id='about'className='w-full h-auto flex flex-col items-center 
+        justify-between lg:px-[80px] py-[60px] px-[20px] gap-[60px]'>
       <div id='top-box' className='w-full flex lg:flex-row flex-col items-center
       justify-between gap-[60px]'>
         <div className='lg:w-[60%] w-full flex flex-col justify-center items-start 
@@ -35,7 +27,7 @@ export const About = () => {
 
         <div className='lg:w-[40%] w-full flex lg:justify-end justify-start
         items-start'>
-          <button onClick={() => navigate('/company')} data-aos="slide-up" data-aos-delay="50" className='bg-purple-700 hover:bg-black hover:text-white py-4 px-6 
+          <button data-aos="slide-up" data-aos-delay="50" className='bg-purple-700 hover:bg-black hover:text-white py-4 px-6 
           text-white text-md font-semibold mt-5 rounded-md'>LEARN MORE</button>
         </div>
       </div>
@@ -76,5 +68,62 @@ export const About = () => {
         </div>
       </div>
     </div>
-  )
-}
+
+    <section 
+        className='max-w-7xl mx-auto px-4 py-16 md:py-24'
+    >
+        <div className='flex flex-col md:flex-row items-center gap-12'>
+            {/* Left Side Content */}
+            <div 
+                className='w-full md:w-1/2'
+            >
+                <span
+                  data-aos="zoom-in" data-aos-delay="50"
+                    className='text-purple-500 font-semibold'
+                >
+                    CYCLALX CORE SOLUTIONS
+                </span>
+                <h2 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    className='text-3xl md:text-4xl font-bold text-navy-900 mt-4 mb-6 md:w-4/5'
+                >
+                    Cyclax Provides Smart, AI-Powered solutions That Drives Impact
+                </h2>
+                <p 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    className='text-gray-600 mb-8 md:w-4/5'
+                >
+                    At Cyclax, our core solutions are designed with one goal in mind to create real impact for business, organizations, and communities. 
+                    From AI-Powered automation to enterprise software, cloud migration, and business Intelligence, we deliver technology that goes beyound 
+                  
+                </p>
+                <a 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    href="/student-core"
+                    className='text-purple-900 hover:text-purple-500 font-semibold flex items-center gap-2 hover:gap-4 transition-all'
+                >
+                    Learn more about monitoring 
+                    
+                </a>
+            </div>
+
+            {/* Right Side Content */}            <div 
+                className='w-full md:w-1/2 relative'
+            >
+                <div 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    className='p-4'
+                >
+                    <img src="/strategy.jpg" alt="" className='rounded-lg object-cover h-auto w-full'/>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <Footer />
+            
+            
+        </div>
+  
+);
+};

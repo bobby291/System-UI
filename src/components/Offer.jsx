@@ -41,14 +41,14 @@ export const Offer = () => {
                     From AI-Powered automation to enterprise software, cloud migration, and business Intelligence, we deliver technology that goes beyound 
                   
                 </p>
-                <a 
+                 {/* <a 
                     data-aos="zoom-in" data-aos-delay="50"
                     href="/student-core"
                     className='text-purple-900 hover:text-purple-500 font-semibold flex items-center gap-2 hover:gap-4 transition-all'
                 >
                     Learn more about monitoring 
                     
-                </a>
+                </a> */}
             </div>
 
             {/* Right Side Content */}

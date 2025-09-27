@@ -101,11 +101,11 @@ export const Client = () => {
     <div 
       className='text-center mt-12'
     >
-      <button 
+       {/* <button 
         className='bg-purple-700 text-white font-poppins cursor-pointer py-3 px-6 rounded-full hover:bg-black hover:text-white transition-colors shadow-2xl relative'
       > 
         Learn More
-        </button>
+        </button> */}
     </div>
     
 

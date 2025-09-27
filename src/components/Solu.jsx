@@ -1,14 +1,11 @@
 import React, { useEffect } from 'react'
 import heroing from '../assets/hero.png'
-import backgroundimage from '../assets/cyclax-hero.jpg'
+import backgroundimage from '../assets/solution-hero-bg.jpg'
 import AOS from 'aos';
-import { useNavigate } from 'react-router-dom';
 import 'aos/dist/aos.css';
 
 
-export const Hero = () => {
-
-  const navigate = useNavigate();
+export const Solu = () => {
 
   useEffect(() => {
     AOS.init({
@@ -26,11 +23,10 @@ export const Hero = () => {
       <div className='lg:w-1/2 w-full flex flex-col gap-[20px] items-start justify-center'>
         <h1 data-aos="zoom-in" data-aos-delay="50" className='text-purple-400 uppercase text-sm font-poppins'>Seemless IT Solution</h1>
         <h1 data-aos="zoom-in" data-aos-delay="100" className='text-gray-300 lg:text-[70px] text-[40px] capitalize font-poppins 
-        leading-[1.2em] font-poppins'>Transforming Ideas into Digital Solution</h1>
-        <p data-aos="zoom-in" data-aos-delay="170" className='text-gray-300 text-md font-poppins'>Empowering business, organizations, and goverment with software and AI solutions that drives real value.
-         That transform industires and accelerate Africa's future</p>
-        <button onClick={() => navigate('/solution')} data-aos="slide-up" data-aos-delay="200" className='bg-purple-900 hover:bg-white hover:text-black py-4 px-6
-        text-white text-md font-semibold mt-5 rounded-md'>EXPLORE SOLUTION</button>
+        leading-[1.2em] font-poppins'>Cyclax Tech and Digital Solution</h1>
+        <p data-aos="zoom-in" data-aos-delay="170" className='text-gray-300 text-md font-poppins'>Cylax provide a large scale 
+          broad solution to business and Industries shaping the method to production and management to scalability and fast using AI automaton</p>
+        
       </div>
       <div className='lg:w-1/2 w-full flex justify-center items-center'>
         <div data-aos="zoom-in" data-aos-delay="230" className='lg:w-[80%] w-full flex justify-center items-center px-5 pt-5 bg-purple-400 bg-opacity-30 z-10 rounded-md'>
