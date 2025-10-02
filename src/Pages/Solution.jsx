@@ -1,6 +1,6 @@
 import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
-import aboutimg from "../assets/about.jpg";
+import aboutimg from "../assets/soludo.jpg";
 import { Solu } from "../components/Solu";
 
 export default function Solution() {
@@ -14,13 +14,10 @@ export default function Solution() {
       justify-between gap-[60px]'>
         <div className='lg:w-[60%] w-full flex flex-col justify-center items-start 
         gap-[10px]'>
-          <h1 data-aos="zoom-in" data-aos-delay="50"className='text-purple-700 uppercase text-sm font-poppins'>WHO WE ARE</h1>
+          <h1 data-aos="zoom-in" data-aos-delay="50"className='text-purple-700 uppercase text-sm font-poppins'>CYCLAX TECH HUB</h1>
           <h1 data-aos="zoom-in" data-aos-delay="100"className='text-black lg:text-[45px] text-[30px] capitalize leading-[1.2em] 
-          font-poppins'>Delivering Excellence in IT Solution</h1>
-          <p data-aos="zoom-in" data-aos-delay="150" className='text-gray-500 text-md font-poppins'>At Cyclax, we believe excellence in technology delivery goes beyond writing
-            code, it's about creating solution that drives measurable impact. From AI-Powered tools to Enterprise software, we combine innovation, 
-            percision, and reliability to help business, organizations, goverments, student, and SMEs scale with confidence. Every
-            solution we build is desgin to accelerate growth, unlock opportunities, and deliver lasting value in an ever-changing Digital 
+          font-poppins'>Blending Technology and Business for Africa's Growth</h1>
+          <p data-aos="zoom-in" data-aos-delay="150" className='text-gray-500 text-md font-poppins'>We provide innovative software and AI-powered solutions that empowers business, organizations, governments and student across Africa. 
             economy
           </p>
         </div>
@@ -28,23 +25,37 @@ export default function Solution() {
         <div className='lg:w-[40%] w-full flex lg:justify-end justify-start
         items-start'>
           <button data-aos="slide-up" data-aos-delay="50" className='bg-purple-700 hover:bg-black hover:text-white py-4 px-6 
-          text-white text-md font-semibold mt-5 rounded-md'>LEARN MORE</button>
+          text-white text-md font-semibold mt-5 rounded-md'>Explore Our Solution</button>
         </div>
       </div>
 
       <div className='w-full flex lg:flex-row flex-col
       justify-between items-center gap-[80px]'>
         <div data-aos="zoom-in" data-aos-delay="230" id='img-box' className='lg:w-[40%] w-full'>
-          <img src={aboutimg} alt="" className='w-full bg-cover bg-center'/>
+          <img src={aboutimg} alt="" className='w-full bg-cover bg-center rounded'/>
         </div>
         <div id='content-box' className='lg:w-[60%] w-full flex flex-col items-start 
         justify-between gap-[60px]'>
           <div className='flex flex-col items-start justify-center gap-3'>
             <h1 data-aos="zoom-in" data-aos-delay="50" className='text-black text-[35px] capitalize leading-[1.2]
-            font-poppins'>Expertise</h1>
-            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Harnessing deep expertise in 
-              software, AI, and Enterprise solution to deliver innovation with impact. Blending technology and strategy to 
-              solve complex challenges across industires.
+            font-poppins'>Cyclax Overview</h1>
+            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Cyclax is a software and Technology Hub that blends the economy with Innovation by Delivery intelligent solutions for business, organization, government and students. We specialized in software services such as Web and Mobile Development, AI Tools & Automation, Enterprise Mobility, Business Intelligence, and Cloud Testing.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-start justify-center gap-3'>
+            {/* <h1 data-aos="zoom-in" data-aos-delay="50"  className='text-black text-[35px] capitalize leading-[1.2]
+            font-poppins'>Security</h1> */}
+            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>We accelerate enterprise strategies across industries-Banking & Finance, Education, Healthcare, Insurance, Retail & E-commerce, Travel, Real Estate, and Public Sector, by providing tailored technology that delivers measurable value.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-start justify-center gap-3'>
+            <h1 data-aos="zoom-in" data-aos-delay="50"  className='text-black text-[35px] capitalize leading-[1.2]
+            font-poppins'>Security</h1>
+            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Building technology with security at
+             its core to protect your data, users, and business. We safeguard every solution with enterprise-grade security and compliance standard, 
+             From cloud to AI, we embed security into every layer of our solutions.
             </p>
           </div>
 
