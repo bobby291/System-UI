@@ -1,7 +1,9 @@
 import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
 import { Reso } from "../components/Reso"
-import aboutimg from "../assets/about.jpg";
+import aboutimg from "../assets/reso.jpg";
+import opporimg from "../assets/oppo.jpg"
+import supportimg from "../assets/support.jpg"
 
 export default function Resources() {
     return (
@@ -16,7 +18,7 @@ export default function Resources() {
         gap-[10px]'>
           <h1 data-aos="zoom-in" data-aos-delay="50"className='text-purple-700 uppercase text-sm font-poppins'>WHO WE ARE</h1>
           <h1 data-aos="zoom-in" data-aos-delay="100"className='text-black lg:text-[45px] text-[30px] capitalize leading-[1.2em] 
-          font-poppins'>Delivering Excellence in IT Solution</h1>
+          font-poppins'>explore curated resources, guides, and tools from Cyclax.</h1>
           <p data-aos="zoom-in" data-aos-delay="150" className='text-gray-500 text-md font-poppins'>At Cyclax, we believe excellence in technology delivery goes beyond writing
             code, it's about creating solution that drives measurable impact. From AI-Powered tools to Enterprise software, we combine innovation, 
             percision, and reliability to help business, organizations, goverments, student, and SMEs scale with confidence. Every
@@ -25,11 +27,12 @@ export default function Resources() {
           </p>
         </div>
 
-        <div className='lg:w-[40%] w-full flex lg:justify-end justify-start
+        {/* <div className='lg:w-[40%] w-full flex lg:justify-end justify-start
         items-start'>
           <button data-aos="slide-up" data-aos-delay="50" className='bg-purple-700 hover:bg-black hover:text-white py-4 px-6 
           text-white text-md font-semibold mt-5 rounded-md'>LEARN MORE</button>
-        </div>
+        </div> */}
+        
       </div>
 
       <div className='w-full flex lg:flex-row flex-col
@@ -41,28 +44,33 @@ export default function Resources() {
         justify-between gap-[60px]'>
           <div className='flex flex-col items-start justify-center gap-3'>
             <h1 data-aos="zoom-in" data-aos-delay="50" className='text-black text-[35px] capitalize leading-[1.2]
-            font-poppins'>Expertise</h1>
-            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Harnessing deep expertise in 
-              software, AI, and Enterprise solution to deliver innovation with impact. Blending technology and strategy to 
-              solve complex challenges across industires.
+            font-poppins'>Guides and Insights</h1>
+            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>At Cyclax, we believe knowledge is 
+              the foundation for innovation. Our guides, whitepapers, and case studies provide practical insights into how technology is shaping 
+              industries across Africa. From digital transformation in banking to AI-driven solutions in healthcare and education, these resources 
+              are designed to help businesses, organizations, and governments make informed decisions and stay ahead of industry trends.
             </p>
           </div>
 
           <div className='flex flex-col items-start justify-center gap-3'>
             <h1 data-aos="zoom-in" data-aos-delay="50"  className='text-black text-[35px] capitalize leading-[1.2]
-            font-poppins'>Security</h1>
-            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Building technology with security at
-             its core to protect your data, users, and business. We safeguard every solution with enterprise-grade security and compliance standard, 
-             From cloud to AI, we embed security into every layer of our solutions.
+            font-poppins'>Industry Resources</h1>
+            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Every industry faces unique challenges, 
+              and at Cyclax we provide tailored solutions that deliver real value. In this section, you’ll find resources for Banking & Finance, 
+              Education, Healthcare, Insurance, Retail, Real Estate, Travel, and the Public Sector. Each collection of materials highlights how digital tools, 
+              automation, and business intelligence can transform operations, improve customer experience, and unlock growth opportunities in your sector.
             </p>
           </div>
 
           <div className='flex flex-col items-start justify-center gap-3'>
             <h1 data-aos="zoom-in" data-aos-delay="50"  className='text-black text-[35px] capitalize leading-[1.2]
-            font-poppins'>Scalability</h1>
-            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Solution design to scale seemlessly as your business
-              grows and evolves. From startups to enterprise, we build technology that expands with your vision. Blending organizations with scalable solutions
-              built for long-term success.
+            font-poppins'>AI Tools & SaaS Help Center</h1>
+            <p data-aos="zoom-in" data-aos-delay="120" className='text-gray-500 text-md font-poppins'>Our AI-powered tools, 
+              Quick Study and Brandex, are built to empower students and SMEs in Africa. This section provides step-by-step 
+              tutorials, user guides, and practical tips to help students study more effectively and SMEs scale their businesses 
+              with affordable technology. Whether you’re preparing for exams, building an online presence, or looking for smarter 
+              ways to manage your business, these resources will help you get the best out of our AI solutions.
+
             </p>
           </div>
         </div>
@@ -81,28 +89,80 @@ export default function Resources() {
                   data-aos="zoom-in" data-aos-delay="50"
                     className='text-purple-500 font-semibold'
                 >
-                    CYCLALX CORE SOLUTIONS
+                    CYCLALX RESOURCES
                 </span>
                 <h2 
                     data-aos="zoom-in" data-aos-delay="50"
                     className='text-3xl md:text-4xl font-bold text-navy-900 mt-4 mb-6 md:w-4/5'
                 >
-                    Cyclax Provides Smart, AI-Powered solutions That Drives Impact
+                    Cyclax Community & Support
                 </h2>
                 <p 
                     data-aos="zoom-in" data-aos-delay="50"
                     className='text-gray-600 mb-8 md:w-4/5'
                 >
-                    At Cyclax, our core solutions are designed with one goal in mind to create real impact for business, organizations, and communities. 
-                    From AI-Powered automation to enterprise software, cloud migration, and business Intelligence, we deliver technology that goes beyound 
+                    At Cyclax, we are building more than just software we are building a community. Through our blog, newsletters, events, and meetups, we bring together innovators, students, and businesses to exchange ideas and grow together. This section also provides access to FAQs, troubleshooting guides, and dedicated support resources, ensuring you always have the help you need on your journey with Cyclax.
                   
+                </p>
+
+                {/*  <a 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    href="/student-core"
+                    className='text-purple-900 hover:text-purple-500 font-semibold flex items-center gap-2 hover:gap-4 transition-all'
+                >
+                    Learn more about monitoring 
+                    
+                </a> */}
+               
+            </div>
+
+            {/* Right Side Content */}
+            <div 
+                className='w-full md:w-1/2 relative'
+            >
+                <div 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    className='p-4'
+                >
+                    <img src={supportimg} alt="" className='rounded-lg object-cover h-auto w-full'/>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section 
+        className='max-w-7xl mx-auto px-4 py-16 md:py-24'
+    >
+        <div className='flex flex-col md:flex-row items-center gap-12'>
+            {/* Left Side Content */}
+            <div 
+                className='w-full md:w-1/2'
+            >
+                <span
+                  data-aos="zoom-in" data-aos-delay="50"
+                    className='text-purple-500 font-semibold'
+                >
+                    CYCLALX RESOURCES
+                </span>
+                <h2 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    className='text-3xl md:text-4xl font-bold text-navy-900 mt-4 mb-6 md:w-4/5'
+                >
+                    Cyclax Opportunities
+                </h2>
+                <p 
+                    data-aos="zoom-in" data-aos-delay="50"
+                    className='text-gray-600 mb-8 md:w-4/5'
+                >
+                  Innovation grows stronger when opportunities are shared. That’s why we highlight scholarships, internships, hackathons, and collaboration opportunities that align with our vision of empowering Africa through technology. Whether you’re a student seeking growth, an SME looking for partnerships, or a business aiming to innovate, this section connects you with programs and initiatives that can accelerate your success.                  
                 </p>
                 <a 
                     data-aos="zoom-in" data-aos-delay="50"
                     href="/student-core"
                     className='text-purple-900 hover:text-purple-500 font-semibold flex items-center gap-2 hover:gap-4 transition-all'
                 >
-                    Learn more about monitoring 
+                    Join Cyclax 
                     
                 </a>
             </div>
@@ -115,7 +175,7 @@ export default function Resources() {
                     data-aos="zoom-in" data-aos-delay="50"
                     className='p-4'
                 >
-                    <img src="/strategy.jpg" alt="" className='rounded-lg object-cover h-auto w-full'/>
+                    <img src={opporimg} alt="" className='rounded-lg object-cover h-auto w-full'/>
                     
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
-import aboutimg from "../assets/about.jpg";
+import aboutimg from "../assets/fea.jpg";
 import { Fea } from "../components/Fea";
 
 export default function Features() {
