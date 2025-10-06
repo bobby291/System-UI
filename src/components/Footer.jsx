@@ -19,36 +19,33 @@ export const Footer = () => {
                 <div>
                     <p className='font-playfair text-lg text-white font-semibold'>SERVICES</p>
                     <ul className='mt-3 flex flex-col text-white font-poppins gap-2 text-sm'>
-                        <li><a href="#" className=' hover:text-purple-700'>WEB & MOBILE DEVELOPMENT</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>AI TOOLS AND AUTOMATION</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>ENTERPRISE MOBILITY</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>BUSINESS INTELLEGENCES</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>CLOUD AND TESTING</a></li>
+                        <li><a href="/features" className=' hover:text-purple-700'>WEB & MOBILE DEVELOPMENT</a></li>
+                        <li><a href="/features" className=' hover:text-purple-700'>AI TOOLS AND AUTOMATION</a></li>
+                        <li><a href="/features" className=' hover:text-purple-700'>ENTERPRISE MOBILITY</a></li>
+                        <li><a href="/features" className=' hover:text-purple-700'>BUSINESS INTELLEGENCES</a></li>
+                        <li><a href="/features" className=' hover:text-purple-700'>CLOUD AND TESTING</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <p className='font-playfair text-lg text-white font-semibold'>INDUSTRIES</p>
                     <ul className='mt-3 text-white font-poppins flex flex-col gap-2 text-sm'>
-                        <li><a href="#" className=' hover:text-purple-700'>BANKING AND FINANCES</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>EDUCATION</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>INSURANCE</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>HEALTH CARE</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>RETAIL & CONSUMER PRODUCTS</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>TRAVEL</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>REAL ESTATE</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>PUBLIC SECTOR</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>BANKING AND FINANCES</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>EDUCATION</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>INSURANCE</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>HEALTH CARE</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>RETAIL & CONSUMER PRODUCTS</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>TRAVEL</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>REAL ESTATE</a></li>
+                        <li><a href="/solution" className=' hover:text-purple-700'>PUBLIC SECTOR</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <p className='font-playfair text-lg text-white font-semibold'>SOLUTIONS</p>
                     <ul className='mt-3 text-white font-poppins flex flex-col gap-2 text-sm'>
-                        <li><a href="#" className=' hover:text-purple-700'>SOFTWARE DEVELOPMENT</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>AI & AUTOMATION</a></li>
+                        <li><a href="#" className=' hover:text-purple-700'>SUPPLY CHAIN MANAGEMENT</a></li>
                         <li><a href="#" className=' hover:text-purple-700'>CLOUD INTEGRATION</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>BUSINESS INTELLIGENCES & ANALYTICS</a></li>
-                        <li><a href="#" className=' hover:text-purple-700'>ENTERPRISE MOBILITY </a></li>
                         <li><a href="#" className=' hover:text-purple-700'>DIGITAL TRANSFORMATION.</a></li>
                     </ul>
                 </div>

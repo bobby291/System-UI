@@ -5,7 +5,10 @@ import aboutimg from "../assets/comp.jpg";
 import visionimg from "../assets/vision.jpg"
 import missionimg from "../assets/mission.jpg"
 import person1img from "../assets/person2.jpg"
+import { useNavigate } from "react-router-dom";
 export default function Company() {
+
+  const navigate = useNavigate();
     return (
         <div>
         <Header />
@@ -26,7 +29,7 @@ export default function Company() {
 
         <div className='lg:w-[40%] w-full flex lg:justify-end justify-start
         items-start'>
-          <button data-aos="slide-up" data-aos-delay="50" className='bg-purple-700 hover:bg-black hover:text-white py-4 px-6 
+          <button onClick={() => navigate('/solutio')}  data-aos="slide-up" data-aos-delay="50" className='bg-purple-700 hover:bg-black hover:text-white py-4 px-6 
           text-white text-md font-semibold mt-5 rounded-md'>Explore Our Solution</button>
         </div>
       </div>
